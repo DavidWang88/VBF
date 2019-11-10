@@ -99,3 +99,4 @@ Thumbs.db
 # Folder config file
 Desktop.ini
 
+/src/Compilers/.vs/Compilers/v16/Server/sqlite3

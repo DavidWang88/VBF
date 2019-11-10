@@ -51,12 +51,12 @@
     <Compile Include="..\Compilers.Common\CodeContract.cs">
       <Link>CodeContract.cs</Link>
     </Compile>
-    <Compile Include="AlternationCharSetExpression.cs" />
-    <Compile Include="AlternationExpression.cs" />
+    <Compile Include="RegExp\AlternationCharSetExpression.cs" />
+    <Compile Include="RegExp\AlternationExpression.cs" />
     <Compile Include="CacheQueue.cs" />
     <Compile Include="CharSetExpressionBuilder.cs" />
-    <Compile Include="ConcatenationExpression.cs" />
-    <Compile Include="EmptyExpression.cs" />
+    <Compile Include="RegExp\ConcatenationExpression.cs" />
+    <Compile Include="RegExp\EmptyExpression.cs" />
     <Compile Include="FiniteAutomationEngine.cs" />
     <Compile Include="ForkableScannerBuilder.cs" />
     <Compile Include="ForkableScannerCore.cs" />
@@ -71,22 +71,22 @@
     <Compile Include="Generator\NFAState.cs" />
     <Compile Include="Generator\CompressedTransitionTable.cs" />
     <Compile Include="HistoryList.cs" />
-    <Compile Include="KleeneStarExpression.cs" />
+    <Compile Include="RegExp\KleeneStarExpression.cs" />
     <Compile Include="Lexeme.cs" />
     <Compile Include="LexemeRange.cs" />
     <Compile Include="LexemeValue.cs" />
     <Compile Include="Lexer.cs" />
     <Compile Include="Lexicon.cs" />
     <Compile Include="PeekableScanner.cs" />
-    <Compile Include="RegularExpressionType.cs" />
+    <Compile Include="RegExp\RegularExpressionType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegularExpression.cs" />
-    <Compile Include="RegularExpressionConverter.cs" />
+    <Compile Include="RegExp\RegularExpression.cs" />
+    <Compile Include="RegExp\RegularExpressionConverter.cs" />
     <Compile Include="Scanner.cs" />
     <Compile Include="ScannerException.cs" />
     <Compile Include="ScannerInfo.cs" />
-    <Compile Include="StringLiteralExpression.cs" />
-    <Compile Include="SymbolExpression.cs" />
+    <Compile Include="RegExp\StringLiteralExpression.cs" />
+    <Compile Include="RegExp\SymbolExpression.cs" />
     <Compile Include="Token.cs" />
     <Compile Include="TokenInfo.cs" />
     <Compile Include="UnitTestVisibility.cs" />
